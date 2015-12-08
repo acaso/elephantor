@@ -1,7 +1,7 @@
 Elephantor
 ===========
 
-**elephantor** is a frontend to the duplicity backup tool written in python
+**elephantor** is a frontend to the duplicity backup tool written in Python.
 
 Install
 =======
@@ -29,25 +29,25 @@ How-to
 **launch a backup**
 ::
 
-$ elephator backup
+$ elephantor backup
 
 **get a list of saved files**
 ::
 
-$ elephator list
+$ elephantor list
 
 **get a list of saved files for a given date**
 ::
 
-$ elephator list --time 2014-01-01
+$ elephantor list --time 2014-01-01
 
 **do a restore in the /tmp/fubar directory**
 ::
 
-$ elephator restore -d /tmp/fubar
+$ elephantor restore -d /tmp/fubar
 
 **restore the file toto ine the current directory**
 ::
 
-$ elephator restore -f toto
+$ elephantor restore -f toto
 
